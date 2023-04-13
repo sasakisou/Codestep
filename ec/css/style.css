@@ -1,0 +1,199 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+html body {
+  color: #333;
+  font-size: 0.75rem;
+  font-family: "Raleway", sans-serif;
+  /*-------------------------------------------
+  ヘッダー
+  -------------------------------------------*/
+  /*-------------------------------------------
+  商品ページ
+  -------------------------------------------*/
+  /*-------------------------------------------
+  フッター
+  -------------------------------------------*/
+  /*-------------------------------------------
+  SP
+  -------------------------------------------*/
+}
+html body a {
+  color: #333;
+  text-decoration: none;
+}
+html body img {
+  max-width: 100%;
+}
+html body li {
+  list-style: none;
+}
+html body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html body .site-title {
+  width: 109px;
+  line-height: 1px;
+  margin: 0 auto 36px auto;
+}
+html body .site-title a {
+  display: block;
+}
+html body .wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+html body #header {
+  max-width: 1000px;
+  padding: 46px 0 26px 0;
+  margin: 0 auto 50px auto;
+  border-bottom: solid 1px #c3c3c3;
+}
+html body #header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body #header nav .menu,
+html body #header nav .login {
+  display: flex;
+  align-items: center;
+}
+html body #header nav .menu.menu li,
+html body #header nav .login.menu li {
+  margin-right: 14px;
+}
+html body #header nav .menu.login li,
+html body #header nav .login.login li {
+  margin-left: 14px;
+}
+html body #item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+html body #item .item-image {
+  max-width: 400px;
+  flex-shrink: 0;
+  margin-right: 60px;
+}
+html body #item .item-info p {
+  margin-bottom: 30px;
+  line-height: 1.9;
+}
+html body #item .item-info .item-title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: solid 1px #c3c3c3;
+  border-bottom: solid 1px #c3c3c3;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+html body #item .item-info .order-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+html body #item .item-info .order-table .color,
+html body #item .item-info .order-table .size {
+  width: 20%;
+}
+html body #item .item-info .order-table .quantity {
+  width: 60%;
+}
+html body #item .item-info .order-table td {
+  border-top: solid 1px #c3c3c3;
+}
+html body #item .item-info .order-table th,
+html body #item .item-info .order-table td {
+  font-weight: normal;
+  padding: 10px;
+  border-right: solid 1px #c3c3c3;
+  text-align: center;
+}
+html body #item .item-info .order-table th:last-child,
+html body #item .item-info .order-table td:last-child {
+  border-right: none;
+}
+html body #item .item-info .order-table select {
+  width: 100%;
+  border: solid 1px #c3c3c3;
+  padding: 0 10px;
+  -moz-appearance: menulist;
+  -webkit-appearance: menulist;
+}
+html body #item .item-info .cart-btn {
+  width: 100%;
+  background-color: #4b4b4b;
+  color: #fff;
+  display: block;
+  line-height: 1;
+  padding: 18px 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+html body #item .item-info .size-table {
+  width: 100%;
+  border-top: solid 1px #c3c3c3;
+  border-left: solid 1px #c3c3c3;
+}
+html body #item .item-info .size-table .size {
+  width: 16%;
+}
+html body #item .item-info .size-table .chest,
+html body #item .item-info .size-table .weist,
+html body #item .item-info .size-table .height {
+  width: 28%;
+}
+html body #item .item-info .size-table th {
+  background-color: #ecebeb;
+}
+html body #item .item-info .size-table th,
+html body #item .item-info .size-table td {
+  font-weight: normal;
+  padding: 10px;
+  border-right: solid 1px #c3c3c3;
+  border-bottom: solid 1px #c3c3c3;
+  text-align: center;
+}
+html body #footer {
+  padding: 10px 0;
+}
+html body #footer .copyright {
+  font-size: 0.625rem;
+  text-align: center;
+}
+@media screen and (max-width: 896px) {
+  html body {
+    /*-------------------------------------------
+    ヘッダー
+    -------------------------------------------*/
+    /*-------------------------------------------
+    商品ページ
+    -------------------------------------------*/
+  }
+  html body .site-title {
+    margin-bottom: 26px;
+  }
+  html body #header {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding: 36px 16px 16px 16px;
+  }
+  html body nav {
+    overflow-x: scroll;
+  }
+  html body #item {
+    flex-direction: column;
+  }
+  html body #item .item-image {
+    max-width: 100%;
+    margin: 0 0 10px 0;
+  }
+  html body #item .item-info {
+    padding: 0 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
